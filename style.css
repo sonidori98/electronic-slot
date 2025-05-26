@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-image: url('background.png');
-    background-size: 70% auto;
+    background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #f0f0f0;
@@ -119,9 +119,15 @@ body {
 
 /* メディアクエリ */
 @media screen and (max-width: 480px) {
+    body {
+        background-size: 100% auto;
+        background-position: center top;
+    }
+
     .container {
         padding: 15px;
         margin: 10px;
+        background-color: rgba(255, 255, 255, 0.95);
     }
 
     .slot-container {
@@ -131,6 +137,12 @@ body {
     .stopButton, .startButton {
         width: 100%;
         max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    body {
+        background-size: 70% auto;
     }
 }
 
