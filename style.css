@@ -33,14 +33,14 @@ body {
 }
 
 .slot {
-    width: min(100px, 30vw);
-    height: min(100px, 30vw);
+    width: min(80px, 25vw);
+    height: min(80px, 25vw);
     border: 2px solid #333;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: min(48px, 10vw);
+    font-size: min(36px, 8vw);
     font-weight: bold;
     background-color: #fff;
     overflow: hidden;
@@ -55,7 +55,7 @@ body {
     justify-content: center;
     align-items: center;
     transition: transform 0.1s linear;
-    font-size: min(48px, 10vw);
+    font-size: min(36px, 8vw);
     font-weight: bold;
 }
 
@@ -125,18 +125,26 @@ body {
     }
 
     .container {
-        padding: 15px;
-        margin: 10px;
+        padding: 10px;
+        margin: 5px;
         background-color: rgba(255, 255, 255, 0.95);
+        width: 95%;
     }
 
     .slot-container {
-        gap: 10px;
+        gap: 8px;
+        margin: 10px 0;
     }
 
     .stopButton, .startButton {
         width: 100%;
-        max-width: 200px;
+        max-width: 150px;
+        font-size: min(14px, 3.5vw);
+    }
+
+    #result {
+        font-size: min(20px, 5vw);
+        margin-top: 10px;
     }
 }
 
