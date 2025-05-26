@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>スロットマシン</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="description" content="電子回路の点数を上げるゲーム">
+    <title>電子回路の点数を上げろ!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>スロットマシン</h1>
+        <h1>電子回路の点数を上げろ!</h1>
         <div class="slot-container">
             <div>
-                <div id="slot1" class="slot">2</div>
+                <div id="slot1" class="slot">3</div>
             </div>
             <div>
                 <div id="slot2" class="slot">2</div>
@@ -27,6 +30,11 @@
             <p id="result"></p>
         </div>
     </div>
+
+    <!-- 音声ファイル -->
+    <audio id="battleSound" src="seme.mp3" preload="auto" volume="1.0"></audio>
+    <audio id="successSound" src="end.mp3" preload="auto" volume="1.0"></audio>
+    <audio id="failSound" src="make.mp3" preload="auto" volume="1.0"></audio>
 
     <script src="slot.js"></script>
 </body>

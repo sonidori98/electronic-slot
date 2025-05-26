@@ -1,0 +1,39 @@
+User-agent: *
+Disallow: /
+Noindex: /
+Nofollow: /
+
+# Googleボット用の特別な設定
+User-agent: Googlebot
+Disallow: /
+Noindex: /
+Nofollow: /
+
+# その他の主要なクローラー用の設定
+User-agent: Bingbot
+Disallow: /
+Noindex: /
+Nofollow: /
+
+User-agent: Slurp
+Disallow: /
+Noindex: /
+Nofollow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+Noindex: /
+Nofollow: /
+
+User-agent: Baiduspider
+Disallow: /
+Noindex: /
+Nofollow: /
+
+User-agent: YandexBot
+Disallow: /
+Noindex: /
+Nofollow: /
+
+# サイトマップの無効化
+Sitemap: https://example.com/sitemap.xml 
